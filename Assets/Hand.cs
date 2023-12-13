@@ -14,5 +14,8 @@ public class Hand : MonoBehaviour
     {
         deck = this.gameObject.GetComponent<Deck>();
         cardlist.AddRange(deck.drawCard(5));
+    
+    
+    
     }
 }
